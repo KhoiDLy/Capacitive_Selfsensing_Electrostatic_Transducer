@@ -1,0 +1,5 @@
+Change Component Library : Designator=U9 Old Library=Control_Board_Library.IntLib New Library=Control_Board_Library.SchLib
+Added Member To Class: ClassName=EMCO DC-DC Member=Component U5 C80
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

@@ -1,0 +1,6 @@
+Change Component Comment: Designator=R5 Old Comment=RC0201FR-071KL New Comment=RC0603F202CS
+Change Component Comment: Designator=R7 Old Comment=RC0201FR-071KL New Comment=RC0603F202CS
+Change Pin Designator/Name:  Old Designator=R7-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R7-2 Old Name=2 New Designator =1 New Name=1
+Change Pin Designator/Name:  Old Designator=U2-7 Old Name=V+ New Designator =VOSTRIM New Name=8
+Change Pin Designator/Name:  Old Designator=U2-8 Old Name=VOSTRIM New Designator =V+ New Name=7

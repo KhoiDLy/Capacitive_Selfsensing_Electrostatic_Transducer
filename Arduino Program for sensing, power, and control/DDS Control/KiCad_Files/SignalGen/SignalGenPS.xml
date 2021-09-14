@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Epilepsy/Documents/SignalGen/SignalGenPS.sch</source>
+    <date>25.11.2017 23:33:46</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SignalGenPS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM7812</value>
+      <libsource lib="regul" part="LM7812"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A12223A</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM7912</value>
+      <libsource lib="regul" part="LM7912"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1222F5</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>230V/110V to 12V 0 12V</value>
+      <libsource lib="device" part="Transformer_1P_SS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122437</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Bridge</value>
+      <libsource lib="device" part="D_Bridge_+-AA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1225A1</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122682</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1000uF</value>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1226F8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1000uF</value>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122886</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100uF</value>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122E89</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <libsource lib="device" part="CP_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122ECD</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A122F4D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>MAINS Switch</value>
+      <libsource lib="switches" part="SW_DPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A123E08</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="regul" part="7805">
+      <aliases>
+        <alias>LM7805</alias>
+        <alias>LM7812</alias>
+        <alias>78L05</alias>
+      </aliases>
+      <description>Linear Regulator +5V</description>
+      <docs>regulator\lm78xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7805</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="7905">
+      <aliases>
+        <alias>LM7905</alias>
+        <alias>LM7912</alias>
+        <alias>79L05</alias>
+      </aliases>
+      <description>Linear Regulator -5V</description>
+      <docs>regulator\lm79xx.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7905</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>C_Axial*</fp>
+        <fp>C_Radial*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Bridge_+-AA">
+      <description>Diode bridge (pins: 1=+, 2=-, 3=AC, 4=AC)</description>
+      <footprints>
+        <fp>Diode?Bridge*</fp>
+        <fp>Diode?Rectifier*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Bridge_+-AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Transformer_1P_SS">
+      <description>Transformer, single primary, split secondary</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_SS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SC" type="passive"/>
+        <pin num="5" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="switches">
+      <uri>D:\Proiecte\Programe\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>D:\Proiecte\Programe\KiCad\share\kicad\library\regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>D:\Proiecte\Programe\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="VO"/>
+    </net>
+    <net code="2" name="Net-(SW1-Pad2)">
+      <node ref="T1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(SW1-Pad4)">
+      <node ref="T1" pin="1"/>
+      <node ref="SW1" pin="4"/>
+    </net>
+    <net code="4" name="MAINS">
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="5" name="-12V">
+      <node ref="U2" pin="VO"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad4)">
+      <node ref="T1" pin="3"/>
+      <node ref="D1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad3)">
+      <node ref="T1" pin="5"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="VI"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="9" name="0V">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="U2" pin="GND"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="T1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="VI"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>

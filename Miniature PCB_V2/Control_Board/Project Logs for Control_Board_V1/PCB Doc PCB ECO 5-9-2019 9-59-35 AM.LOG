@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=5V Pin=C25-1
+Removed Pin From Net: NetName=VSSA Pin=C25-2
+Removed Pin From Net: NetName=5V Pin=C32-1
+Removed Pin From Net: NetName=VSSA Pin=C32-2
+Removed Member From Class: ClassName=Voltage Regulators Member=C25
+Removed Member From Class: ClassName=Voltage Regulators Member=C32
+Change component parameters: Designator = "C31"; Footprint = "GRM31CR61E476ME44L"; UniqueID = "\HIBUSKGC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "445-11710-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK Corporation"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C3216JB1E336M160AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "1206 (3216 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "$0.75"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "33uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rated"; Value = "25V"; VariantName = "[No Variations]"
+Added Component: Designator=C1(C0402C102K9RACTU)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "?490-5915-1-ND?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R60J475ME47D?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$0.55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rated"; Value = "6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=C2(C0402C102K9RACTU)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "?490-5915-1-ND?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R60J475ME47D?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$0.55"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rated"; Value = "6.3V"; VariantName = "[No Variations]"
+Added Component: Designator=P3(ADP7104ARDZ-3.3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Current Output"; Value = "500mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "ADP7104ACPZ-3.3-R7DKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ADP7104ACPZ-3.3-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8-LFCSP_WD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$4.5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Input"; Value = "20V (max)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Output"; Value = "3.3V (fixed)"; VariantName = "[No Variations]"
+Added Component: Designator=U9(MKL04Z32VLC4-ND)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "MKL04Z32VLC4-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MKL04Z32VLC4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "32-LQFP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$2.51"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=VSSA Pin=C1-2
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=VSSA Pin=C2-2
+Added Pin To Net: NetName=VDD Pin=P3-1
+Added Pin To Net: NetName=VDD Pin=P3-2
+Added Pin To Net: NetName=VSSA Pin=P3-3
+Added Pin To Net: NetName=NetC33_1 Pin=P3-5
+Added Pin To Net: NetName=VSSA Pin=P3-6
+Added Pin To Net: NetName=VSSA Pin=P3-7
+Added Pin To Net: NetName=NetC33_1 Pin=P3-8
+Added Pin To Net: NetName=VSSA Pin=P3-9
+Added Pin To Net: NetName=VDD Pin=U9-3
+Added Pin To Net: NetName=VDD Pin=U9-4
+Added Pin To Net: NetName=VSSA Pin=U9-5
+Added Pin To Net: NetName=VSSA Pin=U9-6
+Added Pin To Net: NetName=NetU6_L12 Pin=U9-8
+Added Pin To Net: NetName=NetU6_J6 Pin=U9-10
+Added Pin To Net: NetName=NetU6_K7 Pin=U9-15
+Added Pin To Net: NetName=NetU6_J5 Pin=U9-16
+Added Pin To Net: NetName=NetU6_K6 Pin=U9-17
+Added Pin To Net: NetName=NetS1_4 Pin=U9-18
+Added Pin To Net: NetName=NetU6_L12 Pin=U9-25
+Added Member To Class: ClassName=Voltage Regulators Member=Component C1 GRM155R60J475
+Added Member To Class: ClassName=Voltage Regulators Member=Component C2 GRM155R60J475
+Added Member To Class: ClassName=Voltage Regulators Member=Component P3 ADP7104ACPZ-3.3-R7
+Added Member To Class: ClassName=MCU Member=Component U9 MKL04Z32VLC4
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

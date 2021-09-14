@@ -1,0 +1,18 @@
+Added Component: Designator=U4(LT6011AIDD#PBF)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "LT6011AIDD#PBF-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Device"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LT6011AIDD#PBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "8 DFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$8.43"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=V_Filter Pin=U4-1
+Added Pin To Net: NetName=NetR6_2 Pin=U4-2
+Added Pin To Net: NetName=NetC14_1 Pin=U4-3
+Added Pin To Net: NetName=-12V Pin=U4-4
+Added Pin To Net: NetName=NetU4_5 Pin=U4-5
+Added Pin To Net: NetName=NetR8_1 Pin=U4-6
+Added Pin To Net: NetName=NetR8_2 Pin=U4-7
+Added Pin To Net: NetName=12V Pin=U4-8
+Added Member To Class: ClassName=Self_Sensing_Board_V1 Member=Component U4 LT6011AIDD#PBF

@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Net Name : Old Net Name=NetS?_4 New Net Name=NetS1_4
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

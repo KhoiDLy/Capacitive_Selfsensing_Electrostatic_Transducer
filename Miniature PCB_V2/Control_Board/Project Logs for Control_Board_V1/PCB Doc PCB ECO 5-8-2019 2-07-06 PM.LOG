@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=14 Pin=U6-D4
+Added Net: Name=14
+Added Pin To Net: NetName=29 Pin=U6-D12
+Added Net: Name=29
+Added Pin To Net: NetName=30 Pin=U6-D11
+Added Net: Name=30
+Added Pin To Net: NetName=31 Pin=U6-E12
+Added Net: Name=31
+Added Pin To Net: NetName=32 Pin=U6-E11
+Added Net: Name=32
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

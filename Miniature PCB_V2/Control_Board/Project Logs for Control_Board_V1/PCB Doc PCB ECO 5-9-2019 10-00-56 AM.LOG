@@ -1,0 +1,14 @@
+Added Component: Designator=U5(C80)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "1470-3260-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "XP Power"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "C80"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "5-DIP Module"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$393.30"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V Pin=U5-1
+Added Pin To Net: NetName=VSSA Pin=U5-2
+Added Pin To Net: NetName=NetU5_3 Pin=U5-3
+Added Pin To Net: NetName=VSSA Pin=U5-4
+Added Pin To Net: NetName=VSSA Pin=U5-5
+Added Member To Class: ClassName=EMCO DC-DC Member=Component U5 C80

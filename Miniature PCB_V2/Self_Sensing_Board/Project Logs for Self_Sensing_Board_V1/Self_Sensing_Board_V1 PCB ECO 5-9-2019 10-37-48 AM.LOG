@@ -1,0 +1,41 @@
+Change component parameters: Designator = "U1"; Footprint = "AD9833BRMZ"; UniqueID = "\ERXLFXOJ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "?AD9833BRMZ-ND?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "AD9833BRMZ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "MSOP-10 Analog Devices"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "10.14"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6"; Footprint = "RC0603F202CS"; UniqueID = "\OXIBVWST"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "1276-3633-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Samsung"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0603F202CS"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0201 (0603 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts)"; Value = "0.05W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "0.1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R9"; Footprint = "RC0201FR-07130KL"; UniqueID = "\LNORSCPV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "YAG2495CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "RC0201FR-07200RL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0201 (0603 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power (Watts)"; Value = "0.05W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "0.1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "inf"; VariantName = "[No Variations]"
+Added Component: Designator=D1(ESD7181MU)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DC Reverse"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "ESD7181MUT5GOSCT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ESD7181MUT5G"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0201 (0603 Metric)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$0.49"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_Junct Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Member To Class: ClassName=Self_Sensing_Board_V1 Member=Component D1 ESD7181MUT5G
+Added Room: Name=Self_Sensing_Board_V1

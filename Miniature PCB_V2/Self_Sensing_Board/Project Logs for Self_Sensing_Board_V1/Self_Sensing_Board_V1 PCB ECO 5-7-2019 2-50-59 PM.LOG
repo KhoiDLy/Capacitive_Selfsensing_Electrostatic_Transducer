@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=12V Pin=U3-8
+Added Pin To Net: NetName=12V Pin=U3-7
+Added Pin To Net: NetName=5V Pin=U6-1
+Added Room: Name=Self_Sensing_Board_V1

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Self_Sensing_Board_V1.PrjPcb]
+   Generated File[Self_Sensing_Board_V1-Plated.TXT]
+   Generated File[Self_Sensing_Board_V1.LDP]
+   Generated File[Self_Sensing_Board_V1.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 8:37:27 AM On 5/31/2019

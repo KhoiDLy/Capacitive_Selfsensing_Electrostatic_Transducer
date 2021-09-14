@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=V_Filter Pin=R6-1
+Removed Pin From Net: NetName=V_Filter Pin=R9-1
+Removed Pin From Net: NetName=GND Pin=R9-2
+Removed Member From Class: ClassName=Self_Sensing_Board_V1 Member=R6
+Removed Member From Class: ClassName=Self_Sensing_Board_V1 Member=R9
+Added Pin To Net: NetName=V_Filter Pin=U4-2
+Added Room: Name=Self_Sensing_Board_V1

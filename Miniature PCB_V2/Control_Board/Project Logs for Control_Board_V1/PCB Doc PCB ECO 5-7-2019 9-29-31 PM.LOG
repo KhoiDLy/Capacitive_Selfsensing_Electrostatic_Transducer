@@ -1,0 +1,17 @@
+Added Component: Designator=OC?(TSX-3225 16.0000MF18X-AC3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "SER3636CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "EPSON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "TSX-3225 16.0000MF18X-AC3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "4-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$0.56"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "16MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VSSA Pin=OC?-2
+Added Pin To Net: NetName=NetOC?_1 Pin=OC?-1
+Added Pin To Net: NetName=NetOC?_1 Pin=U6-M12
+Added Net: Name=NetOC?_1
+Added Pin To Net: NetName=NetOC?_3 Pin=OC?-3
+Added Pin To Net: NetName=NetOC?_3 Pin=U6-M11
+Added Net: Name=NetOC?_3
+Added Member To Class: ClassName=MCU Member=Component OC? TSX-3225 16.0000MF18X-AC3

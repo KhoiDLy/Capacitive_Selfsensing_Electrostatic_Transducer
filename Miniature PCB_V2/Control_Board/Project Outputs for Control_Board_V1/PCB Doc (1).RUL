@@ -1,0 +1,15 @@
+DRC Rules Export File for PCB: E:\Google Drive\education-academics\CU Boulder\Research\NSF CPS Research\Capacitance Sensing and Control of HASEL\Miniature PCB_V2\Control_Board_V1\PCB Doc.PcbDoc
+RuleKind=Width|RuleName=Width_BGA_LTM8049|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance_BGA_LTM8049|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width_BGA_MK66|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance_BGA_MK66|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width_5V|Scope=Board|Minimum=12.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width_Battery|Scope=Board|Minimum=20.00
+RuleKind=Width|RuleName=Width_12V|Scope=Board|Minimum=15.00
+RuleKind=Width|RuleName=Width_-12V|Scope=Board|Minimum=15.00
+RuleKind=Width|RuleName=Width_3.9/5|Scope=Board|Minimum=12.00
+RuleKind=Width|RuleName=Width_VDD|Scope=Board|Minimum=6.00

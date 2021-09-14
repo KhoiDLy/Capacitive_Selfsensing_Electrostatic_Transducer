@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=VSSA Pin=C26-2
+Removed Pin From Net: NetName=5V Pin=C27-1
+Removed Pin From Net: NetName=VSSA Pin=C27-2
+Removed Pin From Net: NetName=VSSA Pin=C29-2
+Removed Pin From Net: NetName=VSSA Pin=C30-2
+Removed Pin From Net: NetName=5V Pin=D5-1
+Removed Pin From Net: NetName=VSSA Pin=P1-4
+Removed Pin From Net: NetName=VSSA Pin=P1-5
+Removed Pin From Net: NetName=VSSA Pin=P1-11
+Removed Pin From Net: NetName=5V Pin=R21-1
+Removed Pin From Net: NetName=VSSA Pin=R25-2
+Removed Member From Class: ClassName=Voltage Regulators Member=C26
+Removed Member From Class: ClassName=Voltage Regulators Member=C27
+Removed Member From Class: ClassName=Voltage Regulators Member=C29
+Removed Member From Class: ClassName=Voltage Regulators Member=C30
+Removed Member From Class: ClassName=Voltage Regulators Member=D5
+Removed Member From Class: ClassName=Voltage Regulators Member=I1
+Removed Member From Class: ClassName=Voltage Regulators Member=R21
+Removed Member From Class: ClassName=Voltage Regulators Member=R24
+Removed Member From Class: ClassName=Voltage Regulators Member=R25
+Change Component Footprint: Designator=P1 Old Footprint=ADP1614ACPZ-1.3-R7 New Footprint=REG113NA-5/3K
+Change Component Comment : Designator=P1 Old Comment=ADP1614ACPZ-1.3-R7 New Comment=REG113NA
+Change Component Comment : Designator=D4 Old Comment=APG0603CGC-TT New Comment=SML-LXFM0603SUGCTR
+Change component parameters: Designator = "C1"; Footprint = "C0402C102K9RACTU"; UniqueID = "\YYWHKNVA"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "?490-5915-1-ND?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R60J475ME47D?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "$0.55"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rated"; Value = "6.3V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2"; Footprint = "C0402C102K9RACTU"; UniqueID = "\HWDVEPQX"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "?490-5915-1-ND?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM155R60J475ME47D?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0402"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "X5R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "$0.55"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7uF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rated"; Value = "6.3V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D4"; Footprint = "LED"; UniqueID = "\DYMNIJKW"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Current"; Value = "10mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digikey Part Number"; Value = "67-2320-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Forward Voltage"; Value = "2.2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Lumex Opto/Components Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "SML-LXFM0603SUGCTR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0603 (1608 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "$1.06"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Wavelength"; Value = "Green (571nm)"; VariantName = "[No Variations]"
+Change component parameters: Designator = "P1"; Footprint = "REG113NA-5/3K"; UniqueID = "\KLNJEDCN"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digikey"; Value = "REG113NA-5/3KCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "LT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "REG113NA-5/3K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Unit Price"; Value = "$2.76"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J3-2
+Added Pin To Net: NetName=5V Pin=P1-1
+Added Pin To Net: NetName=VSSA Pin=P1-2
+Added Pin To Net: NetName=5V Pin=P1-3
+Change Net Name : Old Net Name=5V New Net Name=NetC1_1
+Added Pin To Net: NetName=5V Pin=P1-5
+Added Net: Name=5V
+Added Pin To Net: NetName=NetC3_1 Pin=P1-4
+Added Net: Name=NetC3_1
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

@@ -1,0 +1,13 @@
+Added Component: Designator=OC1(LFSPXO017735REEL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "1923-1091-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "IQD Frequency Products"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LFSPXO017735REEL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "4-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10Mhz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=OC1-2
+Added Pin To Net: NetName=NetOC1_3 Pin=OC1-3
+Added Pin To Net: NetName=5V Pin=OC1-4
+Added Member To Class: ClassName=Self_Sensing_Board_V1 Member=Component OC1 LFSPXO017735REEL

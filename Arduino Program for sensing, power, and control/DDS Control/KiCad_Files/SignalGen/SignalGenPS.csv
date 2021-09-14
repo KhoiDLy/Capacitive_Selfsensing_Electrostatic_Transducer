@@ -1,0 +1,9 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet
+"C","2","C5,C6,","100nF","",""
+"C","2","C3,C4,","100uF","",""
+"C","2","C1,C2,","1000uF","",""
+"D","1","D1,","D_Bridge","",""
+"SW","1","SW1,","MAINS Switch","",""
+"T","1","T1,","230V/110V to 12V 0 12V","",""
+"U","1","U1,","LM7812","",""
+"U","1","U2,","LM7912","",""

@@ -1,0 +1,59 @@
+Removed Pin From Net: NetName=VDD Pin=U7-1
+Removed Pin From Net: NetName=VSSA Pin=U7-2
+Removed Pin From Net: NetName=NetC21_2 Pin=U7-3
+Added Component: Designator=S?(KMR221GLFS)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "CKN10246TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "C&K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "KMR231NG LFS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SPST-NO"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$0.58"; VariantName = "[No Variations]"
+Added Component: Designator=U9(MKL04Z32VLC4-ND)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "MKL04Z32VLC4-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NXP Semiconductors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "MKL04Z32VLC4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "32-LQFP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$2.51"; VariantName = "[No Variations]"
+Added Component: Designator=U?(ISL60002-25)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digikey Part Number"; Value = "ISL60002BIH325Z-T7ADKR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Renesas Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ISL60002BIH325Z-TK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOT-23-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Unit Price"; Value = "$6.41"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VSSA Pin=S?-2
+Added Pin To Net: NetName=VDD Pin=U9-3
+Added Pin To Net: NetName=VDD Pin=U9-4
+Added Pin To Net: NetName=VSSA Pin=U9-5
+Added Pin To Net: NetName=VSSA Pin=U9-6
+Added Pin To Net: NetName=NetU6_L12 Pin=U9-8
+Added Pin To Net: NetName=NetU6_J6 Pin=U9-10
+Added Pin To Net: NetName=NetU6_K7 Pin=U9-15
+Added Pin To Net: NetName=NetU6_J5 Pin=U9-16
+Added Pin To Net: NetName=NetU6_K6 Pin=U9-17
+Added Pin To Net: NetName=NetU6_L12 Pin=U9-25
+Added Pin To Net: NetName=VDD Pin=U?-1
+Added Pin To Net: NetName=NetC21_2 Pin=U?-2
+Added Pin To Net: NetName=VSSA Pin=U?-3
+Change Net Name : Old Net Name=NetC2_1 New Net Name=NetU6_B12
+Change Net Name : Old Net Name=NetR10_1 New Net Name=NetU5_3
+Change Net Name : Old Net Name=NetU4_5 New Net Name=NetU6_L3
+Change Net Name : Old Net Name=PWM New Net Name=NetD4_1
+Added Pin To Net: NetName=NetS?_4 Pin=S?-4
+Added Pin To Net: NetName=NetS?_4 Pin=U9-18
+Added Net: Name=NetS?_4
+Added Pin To Net: NetName=NetU6_A9 Pin=U6-A9
+Added Net: Name=NetU6_A9
+Added Pin To Net: NetName=NetU6_C8 Pin=U6-C8
+Added Net: Name=NetU6_C8
+Added Pin To Net: NetName=PWM Pin=U6-B8
+Added Net: Name=PWM
+Added Member To Class: ClassName=MCU Member=Component S? KMR231NG LFS
+Added Member To Class: ClassName=MCU Member=Component U9 MKL04Z32VLC4
+Added Member To Class: ClassName=MCU Member=Component U? ISL60002BIH325Z-T7A
+Added Room: Name=EMCO DC-DC
+Added Room: Name=MCU
+Added Room: Name=Voltage Regulators

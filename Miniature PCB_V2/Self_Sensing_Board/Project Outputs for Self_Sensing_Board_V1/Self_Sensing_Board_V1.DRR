@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Self_Sensing_Board_V1.PcbDoc   8/3/2019  5:45:51 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : Self_Sensing_Board_V1-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.508mm)                                           Round             22        PTH        3.37inch (85.61mm)
+T2      30mil (0.762mm)                                           Round             2         PTH        0.58inch (14.73mm)
+T3      39mil (0.991mm)                                           Round             7         PTH        0.49inch (12.55mm)
+T4      40mil (1.016mm)                                           Round             2         PTH        0.91inch (23.19mm)
+T5      40mil (1.021mm)                                           Round             7         PTH        1.61inch (41.01mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              40
+
+Total Processing Time (hh:mm:ss) : 00:00:00
